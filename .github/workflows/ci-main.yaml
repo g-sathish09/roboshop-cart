@@ -62,7 +62,6 @@ jobs:
 
   PROD:
     runs-on: self-hosted
-    needs: PROD
     needs: UAT
     steps:
       - uses: actions/checkout@v4
